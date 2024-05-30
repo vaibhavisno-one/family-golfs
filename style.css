@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+    color: #fff;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* #main{
+    width:15%;
+    height: 40%;
+    padding: 20px;/*do element ke bich ki space  */
+    /* margin: 20px;element ke bahar ki space 
+}*/
+/* #main{
+    width: 100%;
+    height:100%;
+    background-color: antiquewhite;
+    background-image: url(https://images.unsplash.com/photo-1716369414811-ab4b06d8fb0e?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+} */
+/* #car1{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    background-color: red;
+
+}
+#car2{
+    position: absolute;
+    width: 110px;
+    height: 90px;
+    background-color: blue;
+
+}
+#car3{
+    position: absolute;
+    width: 120px;
+    height: 80px;
+    background-color: aquamarine;
+}  */
+#top{
+    
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(215, 47, 47); */
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    position: fixed;
+    gap: 40px;
+    z-index: 99;
+    justify-content: flex-start;
+       
+}
+#top img{
+    height: 70px;    
+}
+#top h4{
+    text-transform: uppercase;
+    font-weight: 40px;
+    padding: 15px;
+}
+video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+}
+#main{
+    position: relative;
+    background-color: rgba(0,0,0,0.3)
+    
+
+}
+
+#page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+}
+#page1 h1{
+    font-size: 130px;
+    font-weight: 900;
+}
+
+#page1 h2{
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#page1 p{
+    font-size:20px ;
+    font-weight: 500;
+    width: 50%;
+}
+#top h4:hover{
+    background-color: #8b8b8b;
+}
